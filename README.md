@@ -3,27 +3,39 @@
 ### Folder Structure
 
 The folder structure is as follows:
-    
+
         .
         ├── README.md
-        ├── data
-        │   ├── judge_case.csv
-        │   ├── judge.csv
-        │   ├── purpose_name_key.csv
-        │   ├── section_key.csv
-        │   └── type_name_key.csv
-        ├── src
-        │   ├── analysis.py
-        │   ├── data.py
-        │   ├── __init__.py
-        │   ├── __pycache__
-        │   │   ├── analysis.cpython-36.pyc
-        │   │   ├── data.cpython-36.pyc
-        │   │   └── __init__.cpython-36.pyc
-        │   └── utils.py
+        ├── submission.zip
+        |   └── submission
+        │       ├── judge_case.csv
+        │       ├── judges_clean.csv
+        │       ├── purpose_name_key.csv
+        │       ├── section_key.csv
+        │       └── type_name_key.csv
         ├── top20_causes.png
-        ├── top20_causes.png
-        ├── top20_causes.png
+        ├── top20_Courts.png
+        ├── top20_type.png
+        └── top20_types2.png
+
+
+### Instruction to run the code
+
+Download the zip file from https://github.com/Srijan-Chak012/Analysis-of-Court-Data 
+
+or
+
+Clone the repository using the following command:
+
+    git clone https://github.com/Srijan-Chak012/Analysis-of-Court-Data.git 
+    or
+    git clone git@github.com:Srijan-Chak012/Analysis-of-Court-Data.git
+
+After this, unzip the submissions.zip file and go to the folder `submission`.
+
+The codes are written in Jupyter Notebook, using a kernel with Python 3.10. The codes can be run individually.
+
+Note: The file act_analysis.ipynb will lead to an error as the csv file, `acts_sections.csv` was too large to upload on Github. It can be downloaded from https://www.dropbox.com/sh/hkcde3z2l1h9mq1/AAB2U1dYf6pR7qij1tQ5y11Fa/csv?dl=0&subfolder_nav_tracking=1 and then analysed using the code.
 
 ### Classification Problem
 
